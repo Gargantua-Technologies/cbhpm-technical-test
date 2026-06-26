@@ -1,0 +1,12 @@
+{
+  "name": "tech-test-pricing",
+  "private": true,
+  "packageManager": "pnpm@9.12.3",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "gen:seed": "node scripts/gen-seed.mjs",
+    "dev": "pnpm -r --parallel dev",
+    "dev:api": "pnpm --filter api dev",
+    "dev:web": "pnpm --filter web dev"
+  }
+}
